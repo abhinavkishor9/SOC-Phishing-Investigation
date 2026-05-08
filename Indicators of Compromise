@@ -1,0 +1,12 @@
+### Indicators of Compromise (IOCs)
+
+* **Threat Type**: Deceptive Phishing Email identified in Email Security logs.
+
+
+* **Delivery Status**: Successfully delivered to the user inbox.
+
+
+* **Primary Indicator**: Suspicious domain and link detected within the message body.
+
+
+* **Sender Behavior**: Observed unverified sender patterns and phishing characteristics.
