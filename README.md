@@ -4,7 +4,7 @@
 
 ## 📌 Executive Summary
 
-On **May 07, 2026**, a SIEM alert (Rule: SOC282) was triggered regarding a deceptive email detected within the environment. This investigation confirmed the incident as a **True Positive**, as a phishing email containing suspicious links was successfully delivered to an internal user's inbox.
+On **May 06, 2026**, a SIEM alert (Rule: SOC282) was triggered regarding a deceptive email detected within the environment. This investigation confirmed the incident as a **True Positive**, as a phishing email containing suspicious links was successfully delivered to an internal user's inbox.
 
 
 
