@@ -22,36 +22,29 @@ On **May 07, 2026**, a SIEM alert (Rule: SOC282) was triggered regarding a decep
 
 ### Indicators of Compromise (IOCs)
 
-* 
-**Threat Type**: Deceptive Phishing Email identified in Email Security logs.
+* **Threat Type**: Deceptive Phishing Email identified in Email Security logs.
 
 
-* 
-**Delivery Status**: Successfully delivered to the user inbox.
+* **Delivery Status**: Successfully delivered to the user inbox.
 
 
-* 
-**Primary Indicator**: Suspicious domain and link detected within the message body.
+* **Primary Indicator**: Suspicious domain and link detected within the message body.
 
 
 * **Sender Behavior**: Observed unverified sender patterns and phishing characteristics.
 
 ### Action Workflow
 
-* 
-**Validation**: Reviewed SIEM alert details for Event ID 257 and confirmed the detection rule was correctly triggered.
+* **Validation**: Reviewed SIEM alert details for Event ID 257 and confirmed the detection rule was correctly triggered.
 
 
-* 
-**Analysis**: Verified email security logs and delivery reports to confirm successful delivery.
+* **Analysis**: Verified email security logs and delivery reports to confirm successful delivery.
 
 
-* 
-**Impact Assessment**: Evaluated potential user exposure and checked for interactions with malicious content.
+* **Impact Assessment**: Evaluated potential user exposure and checked for interactions with malicious content.
 
 
-* 
-**Final Assessment**: Confirmed the email reached the recipient, increasing the organizational risk profile.
+* **Final Assessment**: Confirmed the email reached the recipient, increasing the organizational risk profile.
 
 
 
@@ -66,10 +59,10 @@ The investigation identified the following risk levels associated with this thre
 * **Malware Risk**: Medium.
 * **Organization Impact**: Medium.
 
-> 
-> **Root Cause**: A targeted attempt to trick the recipient into interacting with malicious content or revealing sensitive information.
-> 
-> 
+
+ **Root Cause**: A targeted attempt to trick the recipient into interacting with malicious content or revealing sensitive information.
+
+
 
 ---
 
