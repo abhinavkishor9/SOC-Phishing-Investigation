@@ -13,7 +13,7 @@ On **May 06, 2026**, a SIEM alert (Rule: SOC282) was triggered regarding a decep
 | Category | Details |
 | :--- | :--- |
 | **Incident Title** | Phishing Alert - Deceptive Mail Detected|
-| **Date** | May 07, 2026 |
+| **Date** | May 06, 2026 |
 | **Severity** | Medium |
 | **Event ID** | 257 |
 | **Status** | True Positive / Closed |
