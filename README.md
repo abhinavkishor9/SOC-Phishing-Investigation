@@ -77,6 +77,7 @@ The investigation identified the following risk levels associated with this thre
 ## 📂 Repository Contents
 
 * **Full Report**: Detailed SOC Incident Investigation PDF.
+* **Phishing_Threat_Infographic.png**: Visual breakdown of the threat, risks, and actions taken.
 
 <img width="1000" height="900" alt="ChatGPT Image May 7, 2026, 10_32_53 AM (1)" src="https://github.com/user-attachments/assets/0c39977a-b60e-4823-9d47-5c2ab6baf510" />
 
