@@ -4,72 +4,98 @@
 
 ## 📌 Executive Summary
 
-On **May 07, 2026**, a SIEM alert for a deceptive email was triggered within the environment. Investigation confirmed the threat as a **True Positive**, identifying a phishing attempt aimed at delivering malicious links to an internal inbox. The email was successfully delivered, leading to an immediate assessment of user exposure and organizational risk.
+On **May 07, 2026**, a SIEM alert (Rule: SOC282) was triggered regarding a deceptive email detected within the environment. This investigation confirmed the incident as a **True Positive**, as a phishing email containing suspicious links was successfully delivered to an internal user's inbox.
 
 ## 📊 Incident Profile
 
-Category,Details
-Incident Title,Phishing Alert - Deceptive Mail Detected 
-Date,"May 07, 2026 "
-Severity,Medium 
-Event ID,257 
-Analyst,SOC Analyst 
-Status,True Positive / Closed 
+| Category | Details |
+| --- | --- |
+| **Incident Title** | Phishing Alert - Deceptive Mail Detected 
+
+ |
+| **Date** | May 07, 2026 
+
+ |
+| **Severity** | Medium 
+
+ |
+| **Event ID** | 257 
+
+ |
+| **Status** | True Positive / Closed 
+
+ |
+
+---
+
 ## 🔍 Investigation Overview
 
 ### Indicators of Compromise (IOCs)
 
 * 
-**Threat Type**: Deceptive Phishing Email.
+**Threat Type**: Deceptive Phishing Email identified in Email Security logs.
 
 
 * 
-**Delivery Status**: Confirmed as delivered to the user inbox.
+**Delivery Status**: Successfully delivered to the user inbox.
 
 
 * 
-**Primary Indicator**: Suspicious domain and link identified via Email Security logs.
+**Primary Indicator**: Suspicious domain and link detected within the message body.
 
 
-* **Sender Behavior**: Observed phishing characteristics and unverified sender patterns.
+* **Sender Behavior**: Observed unverified sender patterns and phishing characteristics.
 
 ### Action Workflow
 
 * 
-**Validation**: Verified SIEM alert details for Event ID 257 and confirmed rule SOC282.
+**Validation**: Reviewed SIEM alert details for Event ID 257 and confirmed the detection rule was correctly triggered.
 
 
 * 
-**Analysis**: Reviewed email security logs and delivery reports to track the message path.
+**Analysis**: Verified email security logs and delivery reports to confirm successful delivery.
 
 
 * 
-**Impact Assessment**: Conducted checks for malicious URL interaction and evaluated potential user exposure.
+**Impact Assessment**: Evaluated potential user exposure and checked for interactions with malicious content.
 
 
 * 
-**Final Verdict**: Confirmed that the successful delivery increased the overall risk profile of the environment.
+**Final Assessment**: Confirmed the email reached the recipient, increasing the organizational risk profile.
 
 
+
+---
 
 ## ⚠️ Risk Assessment
 
-The investigation identified the following threat levels:
+The investigation identified the following risk levels associated with this threat:
 
 * **User Compromise**: High.
 * **Credential Theft**: High.
 * **Malware Risk**: Medium.
 * **Organization Impact**: Medium.
 
+> 
+> **Root Cause**: A targeted attempt to trick the recipient into interacting with malicious content or revealing sensitive information.
+> 
+> 
 
- **Root Cause**: A targeted phishing attempt designed to trick recipients into revealing sensitive information or interacting with malicious content.
+---
 
+## 💡 Recommendations & Lessons Learned
 
-## 💡 Mitigation & Recommendations
+* **Immediate Action**: Block the identified sender and update email filtering mechanisms to prevent similar delivery.
+* **User Training**: Implement awareness training to help users identify suspicious emails and deceptive links.
+* **Process Improvement**: Ensure prompt investigation of delivered phishing emails to reduce the window of exposure.
 
-* **Sender Containment**: Block the identified sender and update email filters to prevent future delivery of similar indicators.
-* **User Awareness**: Implement targeted training to help employees identify deceptive links and suspicious communication.
+---
+
+## 📂 Repository Contents
+
 * 
-**Continuous Monitoring**: Promptly investigate all delivered phishing alerts to minimize the window of potential exploitation.
+**Full Report**: Detailed SOC Incident Investigation PDF.
 
+
+* **Threat Infographic**: Visual summary of the phishing threat and response.
 
