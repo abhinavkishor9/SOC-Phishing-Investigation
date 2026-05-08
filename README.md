@@ -8,21 +8,13 @@ On **May 07, 2026**, a SIEM alert for a deceptive email was triggered within the
 
 ## 📊 Incident Profile
 
-| Category | Details |
-| --- | --- |
-| **Incident Title** | Phishing Alert - Deceptive Mail Detected 
-
- |
-| **Severity** | Medium 
-
- |
-| **Event ID** | 257 
-
- |
-| **Status** | True Positive / Closed 
-
- |
-
+Category,Details
+Incident Title,Phishing Alert - Deceptive Mail Detected 
+Date,"May 07, 2026 "
+Severity,Medium 
+Event ID,257 
+Analyst,SOC Analyst 
+Status,True Positive / Closed 
 ## 🔍 Investigation Overview
 
 ### Indicators of Compromise (IOCs)
