@@ -122,9 +122,16 @@ The investigation identified the following risk levels associated with this thre
 
 ## 📂 Repository Contents
 
-* **Full Report**: Detailed SOC Incident Investigation PDF.
-* **Phishing_Threat_Infographic.png**: Visual breakdown of the threat, risks, and actions taken.
+**This project is organized into specific branches to separate the stages of the investigation and the types of evidence collected**:
 
+* **main Branch**: The landing page containing the Executive Summary, the technical README.md, and the Threat Infographic.
+
+* **iocs Branch**: Dedicated repository for technical threat intelligence. Contains extracted Indicators of Compromise, including malicious URLs, suspicious sender domains, and IP addresses identified during the triage.
+
+* **Screenshots Branch**: Contains visual evidence from the SIEM (Security Information and Event Management) platform, including log entries for Event ID 257 and rule SOC282.
+
+* **Final-Report Branch**: Houses the formal Incident Investigation PDF, providing the complete deep-dive analysis, root cause documentation, and long-term remediation strategies.
+  
 <img width="1000" height="900" alt="ChatGPT Image May 7, 2026, 10_32_53 AM (1)" src="https://github.com/user-attachments/assets/0c39977a-b60e-4823-9d47-5c2ab6baf510" />
 
 
