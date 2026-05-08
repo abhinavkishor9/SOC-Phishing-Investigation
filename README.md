@@ -33,6 +33,23 @@ On **May 07, 2026**, a SIEM alert (Rule: SOC282) was triggered regarding a decep
 
 * **Sender Behavior**: Observed unverified sender patterns and phishing characteristics.
 
+### Technical Findings
+  * Suspicious sender domain identified
+    
+  * Email bypassed filtering controls
+    
+  * User delivery confirmed through SIEM event review
+ 
+### 🔍 Indicators of Compromise (IOCs)
+
+| IOC Type | Value |
+| :--- | :--- |
+| **Threat Type** | Phishing |
+| **Delivery Status** | Delivered |
+| **Sender Reputation** | Suspicious |
+| **User Exposure** | High |
+
+
 ### Action Workflow
 
 * **Validation**: Reviewed SIEM alert details for Event ID 257 and confirmed the detection rule was correctly triggered.
