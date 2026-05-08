@@ -34,12 +34,19 @@ On **May 07, 2026**, a SIEM alert (Rule: SOC282) was triggered regarding a decep
 * **Sender Behavior**: Observed unverified sender patterns and phishing characteristics.
 
 ### Technical Findings
-  * Suspicious sender domain identified
-    
-  * Email bypassed filtering controls
-    
-  * User delivery confirmed through SIEM event review
- 
+* **Suspicious sender domain identified**: Initial detection in the 'Email Security' tool flagged a deceptive domain and link within the communication.
+
+* **Email bypassed filtering controls**: The phishing attempt successfully reached the internal user inbox despite existing organizational security layers.
+
+* **Potential credential harvesting indicators observed**: Analysis of the email content revealed markers specifically associated with credential-harvesting phishing attempts.
+
+* **User delivery confirmed through SIEM event review**: Investigation of SIEM Event ID 257 and rule SOC282 verified that the email was successfully delivered to the recipient.
+
+* **Log correlation and timestamp verification**: Email security logs and delivery reports were correlated with the alert timestamp of May 13, 2024, at 09:22 AM.
+
+* **Impact assessment performed**: Conducted post-delivery checks to determine if the user interacted with the malicious URL or opened any files.
+
+  
 ### 🔍 Indicators of Compromise (IOCs)
 
 | IOC Type | Value |
@@ -89,6 +96,28 @@ The investigation identified the following risk levels associated with this thre
 * **User Training**: Implement awareness training to help users identify suspicious emails and deceptive links.
 * **Process Improvement**: Ensure prompt investigation of delivered phishing emails to reduce the window of exposure.
 
+## Analyst Decision
+
+* **Incident requires escalation**: The case has been prepared for escalation to ensure a deeper investigation into potential compromise.
+
+* **Successful delivery confirmed**: Investigation verified that the deceptive email reached the user inbox, significantly increasing the risk profile.
+
+* **Potential user interaction risk**: High risk levels for user compromise and credential theft necessitate further review of user activity.
+
+
+* **True Positive classification**: The incident is officially closed as a True Positive, confirming that a legitimate threat bypassed initial security controls.
+
+  
+
+  ## 📋 Logs Reviewed
+* **Email security logs**: Analyzed to identify the detection of suspicious domains and links.
+
+* **Delivery reports**: Reviewed to confirm the email was successfully delivered to the user inbox.
+
+* **SIEM event logs**: Evaluated Event ID 257 to validate the rule trigger and alert details.
+
+* **User activity logs**: Checked to determine if there was any interaction with malicious files or URLs.
+  
 ---
 
 ## 📂 Repository Contents
